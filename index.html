@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CAROUSELS</title>
+    <link rel="stylesheet" href="/css/pageStyles.css">
+    <link rel="stylesheet" href="/css/imageCarousel.css">
+
+</head>
+<body>
+    <div class="content">
+        <div class="contentTitle">
+            <h1>carousel de imagens</h1>
+        </div>
+        <div id="imageCarousel" class="imageCarousel-content">
+            <div class="imageCarousel-item imageCarousel-item-visible">
+                <img src="img/flyers.jpg">
+            </div>
+            <div class="imageCarousel-item">
+                <img src="img/logotipo.jpg">
+            </div>
+            <div class="imageCarousel-item">
+                <img src="img/Responsive-Web-Design.jpg">
+            </div>
+            <div class="imageCarousel-item">
+                <img src="img/img2.png">
+            </div>
+            <div class="imageCarousel-item">
+                <img src="img/img1.jpg">
+            </div>
+            <div class="imageCarousel-actions">
+                <button id="imageCarousel-bt-prev" aria-label="previus button"><</button>
+                <button id="imageCarousel-bt-next" aria-label="next button">></button>
+            </div>
+        </div>    
+        <div id="bulletButtons" class="imageCarousel-bullets">
+            <!--<button class="imageCarousel-bullets-button"></button>
+            <button class="imageCarousel-bullets-button"></button>
+            <button class="imageCarousel-bullets-button"></button>-->
+        </div>
+        <div id="testeLista"></div>
+        <button onclick="fTesteLista2()">teste lista</button>
+        <div id="testeLista2"></div>
+    </div>
+
+    <script src="js/imageCarousel.js"></script>
+    <script src="js/listagens.js"></script>
+</body>
+</html>
